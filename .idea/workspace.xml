@@ -20,20 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47e82e0-d8a0-4e32-ac54-314690371e08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cXHcHvmMH2NHcv6laC2iXvI687" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +55,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.flask-by-example">
@@ -110,7 +126,8 @@
       <updated>1590668095531</updated>
       <workItem from="1590668099305" duration="316000" />
       <workItem from="1590668490988" duration="1070000" />
-      <workItem from="1590909900293" duration="1314000" />
+      <workItem from="1590909900293" duration="2857000" />
+      <workItem from="1590914498611" duration="233000" />
     </task>
     <servers />
   </component>
@@ -134,16 +151,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.27.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590668761864" />
-    <state x="724" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590669128019">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2644" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590912929204">
+      <screen x="1920" y="-158" width="1920" height="1040" />
     </state>
     <state x="724" y="321" key="#com.intellij.fileTypes.FileTypeChooser/-1680.27.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590669128019" />
+    <state x="2644" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-158.1920.1040@1920.-158.1920.1040" timestamp="1590912929204" />
+    <state width="1860" height="287" key="GridCell.Tab.0.bottom" timestamp="1590914481872">
+      <screen x="1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-158.1920.1040@1920.-158.1920.1040" timestamp="1590914481872" />
+    <state width="1860" height="287" key="GridCell.Tab.0.center" timestamp="1590914481872">
+      <screen x="1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-158.1920.1040@1920.-158.1920.1040" timestamp="1590914481872" />
+    <state width="1860" height="287" key="GridCell.Tab.0.left" timestamp="1590914481871">
+      <screen x="1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-158.1920.1040@1920.-158.1920.1040" timestamp="1590914481871" />
+    <state width="1860" height="287" key="GridCell.Tab.0.right" timestamp="1590914481872">
+      <screen x="1920" y="-158" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-158.1920.1040@1920.-158.1920.1040" timestamp="1590914481872" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590668599746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1680.27.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590668599746" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flask_by_example$flask_by_example.coverage" NAME="flask-by-example Coverage Results" MODIFIED="1590910178578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_by_example$flask_by_example.coverage" NAME="flask-by-example Coverage Results" MODIFIED="1590914508174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
